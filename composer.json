@@ -1,0 +1,18 @@
+{
+    "name" : "oaworld/onlinemall_collect",
+    "description" : "onlina mall data collect",
+    "keywords" : [],
+    "homepage" : "https://oa-world.com",
+    "license" : "MIT",
+    "author" : [
+        {"name" : "lji", "homepage" : "", "role" : "developer"}
+    ],
+    "support" : {"email" : "jilee@oa-world.com"},
+    "require" : {
+         "php" : ">=7.2.0"
+        // ,"aws/aws-php-sdk" : "vx.x.x"
+    },
+    "autoload" : {
+        "psr-4" : {"oaworld\\collect\\" : "src/"}
+    }
+}
